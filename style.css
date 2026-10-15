@@ -1,82 +1,123 @@
+        /* --- CONFIGURAÇÕES DA PÁGINA --- */
+html {
+    scroll-behavior: smooth; /* Faz a página rolar suavemente ao clicar nos links do menu */
+}
 
-        .container-imagens {
-            display: flex;            
-            justify-content: center;  
-            align-items: center;      
-            gap: 30px;                
-            flex-wrap: wrap;          
-            margin-bottom: 20px;      
-        }
-        .imagem-jogo {
-            width: 300px; 
-            height: auto;            
-        }
-        .textocerto{
-            color:white; 
-            text-align:center; 
-            font-family:Arial;
-            max-width: 600px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-        .titulo{
-            color:white; 
-            text-align:center; 
-            font-family:Arial;
-        }
-        .imagem-personagem {
-            width: 200px; 
-            height: auto; 
-            margin: 15px auto;
-            display: block;
-            border-radius: 8px;
-        }
-        .rodope{
-            color:white; 
-            text-align:center; 
-            font-family:Arial;
-            background-color: black;
-        }
-        .imagem-fundo {
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            padding: 30px;
-            min-height: 100vh;
-        }
-         body {
-            margin: 0;
-            padding: 0;
-        }
-          .menu-navegacao {
-            background-color: black;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            padding: 15px 0;
-            position: sticky; 
-            top: 0;
-            z-index: 1000;
-        }
-        .player-musica {
-            text-align: center;
-            margin: 15px auto 30px auto;
-        }
+body {
+    margin: 0;
+    padding: 0;
+}
 
-        .audio {
-            width: 300px; 
-            border-radius: 8px;
-        }
+/* --- CONTAINER DA IMAGEM DE FUNDO FIXA --- */
+.imagem-fundo {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    min-height: 100vh;
+    box-sizing: border-box; /* Garante que o padding não quebre o tamanho da tela */
+}
 
-        .container-video {
-            max-width: 560px;
-            width: 100%;
-            margin: 20px auto 30px auto;
-            display: block;
-        }
-       .container-video iframe {
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            border-radius: 8px;
-            border: none;
-        }
+/* --- MENU DE NAVEGAÇÃO SUPERIOR --- */
+.menu-navegacao {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 15px 0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+/* Estilo específico para os links de dentro do menu */
+.menu-navegacao a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado azul */
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.menu-navegacao a:hover {
+    color: #00ffcc; /* Opcional: muda de cor (estilo matéria verde) quando passa o mouse */
+}
+
+/* --- TEXTOS E TÍTULOS --- */
+.titulo {
+    color: white; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.textocerto {
+    color: white; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+    list-style: none; /* Remove as bolinhas das listas pra não desalinharem */
+}
+
+/* --- IMAGENS DOS JOGOS E PERSONAGENS --- */
+.container-imagens {
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    gap: 30px;                
+    flex-wrap: wrap;          
+    margin-bottom: 20px;      
+}
+
+.imagem-jogo {
+    width: 300px; 
+    height: auto;            
+}
+
+.imagem-personagem {
+    width: 200px; 
+    height: auto; 
+    margin: 15px auto 30px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* --- REPRODUTORES DE VÍDEO (YOUTUBE) --- */
+.container-video {
+    max-width: 560px;
+    width: 100%;
+    margin: 20px auto 30px auto;
+    display: block;
+}
+
+.container-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    border: none;
+}
+
+/* --- REPRODUTOR DE ÁUDIO LOCAL (.MP3) --- */
+.player-musica {
+    text-align: center;
+    margin: 15px auto 30px auto;
+}
+
+audio {
+    width: 300px; 
+    border-radius: 8px;
+}
+
+/* --- EXTRAS --- */
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.rodope {
+    color: white; 
+    text-align: center; 
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
