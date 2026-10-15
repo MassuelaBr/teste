@@ -1,0 +1,82 @@
+
+        .container-imagens {
+            display: flex;            
+            justify-content: center;  
+            align-items: center;      
+            gap: 30px;                
+            flex-wrap: wrap;          
+            margin-bottom: 20px;      
+        }
+        .imagem-jogo {
+            width: 300px; 
+            height: auto;            
+        }
+        .textocerto{
+            color:white; 
+            text-align:center; 
+            font-family:Arial;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .titulo{
+            color:white; 
+            text-align:center; 
+            font-family:Arial;
+        }
+        .imagem-personagem {
+            width: 200px; 
+            height: auto; 
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+        }
+        .rodope{
+            color:white; 
+            text-align:center; 
+            font-family:Arial;
+            background-color: black;
+        }
+        .imagem-fundo {
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 30px;
+            min-height: 100vh;
+        }
+         body {
+            margin: 0;
+            padding: 0;
+        }
+          .menu-navegacao {
+            background-color: black;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 15px 0;
+            position: sticky; 
+            top: 0;
+            z-index: 1000;
+        }
+        .player-musica {
+            text-align: center;
+            margin: 15px auto 30px auto;
+        }
+
+        .audio {
+            width: 300px; 
+            border-radius: 8px;
+        }
+
+        .container-video {
+            max-width: 560px;
+            width: 100%;
+            margin: 20px auto 30px auto;
+            display: block;
+        }
+       .container-video iframe {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 8px;
+            border: none;
+        }

@@ -3,46 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Por que Final fantasy 7 é o melhor jogo</title>
 
-<style>
-        .container-imagens {
-            display: flex;            
-            justify-content: center;  
-            align-items: center;      
-            gap: 30px;                
-            flex-wrap: wrap;          
-            margin-bottom: 20px;      
-        }
-        .imagem-jogo {
-            width: 300px; 
-            height: auto;            
-        }
-        .textocerto{
-            color:black; 
-            text-align:center; 
-            font-family:Arial;
-            max-width: 600px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-        .titulo{
-            color:black; 
-            text-align:center; 
-            font-family:Arial;
-        }
-        .imagem-personagem {
-            width: 200px; 
-            height: auto; 
-            margin: 15px auto;
-            display: block;
-            border-radius: 8px;
-        }
-    </style>
+
 
 </head>
 <body>
-    <h1 style="color:black; text-align:center; font-family:Arial;">Final Fantasy 7</h1>
+    <header>
+          <nav class="menu-navegacao">
+            <a href="#Pontos Marcantes"><i>Pontos Marcantes</i></a> 
+            <a href="#Personagens"><i>| Personagens</i></a> 
+            <a href="#Trilha Sonora"><i>| Trilha Sonora</i></a>
+            </nav>
+    </header>
+   
+<div class="imagem-fundo" style="background-image: url('img/imgespadonafundo.png')">
+    <h1 style="color:white; text-align:center; font-family:Arial;">Final Fantasy 7</h1>
     <br>
 
     <div class="container-imagens">
@@ -52,48 +29,115 @@
     
     </div>
    
-    <h2 style="color:black; text-align:center; font-family:Arial;">Por que é o melhor jogo?</h2>
+    <h2 style="color:white; text-align:center; font-family:Arial;">Por que é o melhor jogo?</h2>
     
     <p class="textocerto"> 
         Final Fantasy 7 é amplamente considerado um dos melhores jogos de todos os tempos, devido à sua narrativa envolvente, personagens bem desenvolvidos e trilha sonora icônica.
     </p>
 
     <ul>
-        <h2 class="titulo">História e Temas Profundos</h2>
-             <li class="textocerto"> Aborda temas maduros e pioneiros para a época, como ambientalismo, ecoterrorismo e os perigos do capitalismo desenfreado representado pela megacorporação Shinra.</li>
+             <h2 class="titulo" id="Pontos Marcantes">Pontos marcantes da evolução do jogo:</h2>
+                <h3 class="titulo">História e Temas Profundos</h3>
+                    <li class="textocerto"> Aborda temas maduros e pioneiros para a época, como ambientalismo, ecoterrorismo e os perigos do capitalismo desenfreado representado pela megacorporação Shinra.</li>
+                
+                <h3 class="titulo">Revolução Gráfica e Técnica</h3>  
+                    <li class="textocerto">Marcou a transição histórica da série para os gráficos em 3D com polígonos e revolucionários cenários pré-renderizados.</li>
+                    <li class="textocerto">Introduziu cenas cinematográficas (CGs) de cair o queixo na época do PlayStation 1, mudando o patamar de como histórias eram contadas nos videogames.</li>
+                
+                <h3 class="titulo">Trilha Sonora Icônica</h3>
+                    <li class="textocerto">A música composta por Nobuo Uematsu é uma obra-prima atemporal.</li>
+                    <li class="textocerto">Temas como a introdução de Midgar e a música de chefe (One-Winged Angel) definiram a identidade sonora dos RPGs.</li>
+                
+                <h3 class="titulo">Sistema de Matéria inovador</h3>
+                    <li class="textocerto">O sistema de Matérias permite equipar esferas mágicas nas armas e armaduras dos personagens</li>
+                    <li class="textocerto">Dá total liberdade para criar combinações únicas de magias, invocações e habilidades passivas, adaptando qualquer personagem para qualquer função no combate</li>
         
-        <h2 class="titulo">Revolução Gráfica e Técnica</h2>  
-             <li class="textocerto">Marcou a transição histórica da série para os gráficos em 3D com polígonos e revolucionários cenários pré-renderizados.</li>
-             <li class="textocerto">Introduziu cenas cinematográficas (CGs) de cair o queixo na época do PlayStation 1, mudando o patamar de como histórias eram contadas nos videogames.</li>
-        
-        <h2 class="titulo">Trilha Sonora Icônica</h2>
-             <li class="textocerto">A música composta por Nobuo Uematsu é uma obra-prima atemporal.</li>
-             <li class="textocerto">Temas como a introdução de Midgar e a música de chefe (One-Winged Angel) definiram a identidade sonora dos RPGs.</li>
-        
-        <h2 class="titulo">Sistema de Matéria inovador</h2>
-             <li class="textocerto">O sistema de Matérias permite equipar esferas mágicas nas armas e armaduras dos personagens</li>
-             <li class="textocerto">Dá total liberdade para criar combinações únicas de magias, invocações e habilidades passivas, adaptando qualquer personagem para qualquer função no combate</li>
-       
-        <h2 class="titulo">Personagens Marcantes</h2>
-            <li class="textocerto">Cloud Strife. O protagonista que quebrou o esteriótipo do herói perfeito ao apresentar uma mente profundamente fragmentada, memórias falsas e uma crise de identidade que o jogador desvenda aos poucos.</li>
-            <img src="img/Cloud Strife.png" alt="Cloud Strife" class="imagem-personagem">
+            <div> 
+                <h2 class="titulo" id="Personagens">Personagens Marcantes</h2>
+                    <li class="textocerto">Cloud Strife. O protagonista que quebrou o esteriótipo do herói perfeito ao apresentar uma mente profundamente fragmentada, memórias falsas e uma crise de identidade que o jogador desvenda aos poucos.</li>
+                    <img src="img/Cloud Strife.png" alt="Cloud Strife" class="imagem-personagem">
 
-            <li class="textocerto">Aerith Gainsborough. Representa a conexão com o planeta e a esperança. Sua personalidade alegre contrasta com um destino trágico, protagonizando um dos momentos mais chocantes e emocionantes da história dos videogames.</li>
-            <img src="img/Aerith Gainsborough.png" alt="Aerith Gainsborough" class="imagem-personagem">
+                    <li class="textocerto">Aerith Gainsborough. Representa a conexão com o planeta e a esperança. Sua personalidade alegre contrasta com um destino trágico, protagonizando um dos momentos mais chocantes e emocionantes da história dos videogames.</li>
+                    <img src="img/Aerith Gainsborough.png" alt="Aerith Gainsborough" class="imagem-personagem">
 
-            <li class="textocerto">Tifa Lockhart. Uma lutadora poderosa que equilibra sua força física com uma personalidade acolhedora e empática, funcionando como a "âncora emocional" e a chave para ajudar Cloud a recuperar sua verdadeira sanidade.</li>
-            <img src="img/tifa lockhart.png" alt="Tifa Lockhart" class="imagem-personagem">
+                    <li class="textocerto">Tifa Lockhart. Uma lutadora poderosa que equilibra sua força física com uma personalidade acolhedora e empática, funcionando como a "âncora emocional" e a chave para ajudar Cloud a recuperar sua verdadeira sanidade.</li>
+                    <img src="img/tifa lockhart.png" alt="Tifa Lockhart" class="imagem-personagem">
 
-            <li class="textocerto">Barret Wallace. O líder explosivo e apaixonado do grupo ecoterrorista Avalanche, cujo visual imponente esconde um pai extremamente dedicado e um homem lutando pelo futuro de sua filha.</li>
-            <img src="img/Barret Wallace.png" alt="Barret Wallace" class="imagem-personagem">
+                    <li class="textocerto">Barret Wallace. O líder explosivo e apaixonado do grupo ecoterrorista Avalanche, cujo visual imponente esconde um pai extremamente dedicado e um homem lutando pelo futuro de sua filha.</li>
+                    <img src="img/Barret Wallace.png" alt="Barret Wallace" class="imagem-personagem">
 
-            <li class="textocerto">Red XIII (Nanaki). Uma criatura leonina inteligente e de vida longa que traz uma perspectiva ancestral à história, lidando com o fardo de ser um dos últimos de sua espécie e com o orgulho de seu povo.</li>
-            <img src="img/Red XIII.png" alt="Red XIII" class="imagem-personagem">
+                    <li class="textocerto">Red XIII (Nanaki). Uma criatura leonina inteligente e de vida longa que traz uma perspectiva ancestral à história, lidando com o fardo de ser um dos últimos de sua espécie e com o orgulho de seu povo.</li>
+                    <img src="img/Red XIII.png" alt="Red XIII" class="imagem-personagem">
 
-            <li class="textocerto">Sephiroth(antagonista). O lendário soldado que enlouquece ao descobrir as origens de sua criação, tornando-se uma ameaça de proporções divinas. Sua imponência, a espada Masamune e sua obsessão por Cloud o consagraram como um dos maiores vilões da cultura pop.</li>
-            <img src="img/Sephiroth.png" alt="Sephiroth" class="imagem-personagem">
+                    <li class="textocerto">Sephiroth(antagonista). O lendário soldado que enlouquece ao descobrir as origens de sua criação, tornando-se uma ameaça de proporções divinas. Sua imponência, a espada Masamune e sua obsessão por Cloud o consagraram como um dos maiores vilões da cultura pop.</li>
+                    <img src="img/Sephiroth.png" alt="Sephiroth" class="imagem-personagem">
+            </div>
+
+            <div>
+                <h3 class="titulo" id="Trilha Sonora">Trilha Sonora Icônica</h3>
+                <h2 class="titulo">Musicas do Remake</h2>
+                    <li class="textocerto">"Bombing Mission" (ou "Opening - Bombing Mission"): A música de abertura do jogo. Ela mistura percussão militar com uma orquestra gigantesca, estabelecendo imediatamente o tom épico da nova trilogia.</li>
+                    <div class="container-video">
+                       <iframe src="https://youtu.be/41cqwo504hA?si=a2aKEytw-OROG8cb" title="Bombing Mission - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">"One-Winged Angel - Rebirth": O tema definitivo de Sephiroth. A versão do Remake consegue deixar o que já era perfeito ainda mais grandioso, adicionando novos coros em latim e quebras de ritmo tensas durante a batalha final.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/fccGPKroq_M?si=RolyC1Jqncm2NUnj" title="One-Winged Angel - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>   
+
+                    <li class="textocerto">"The Airbuster": Um dos rearranjos de chefe mais elogiados pelos fãs. A música clássica de batalha ganha guitarras pesadas, violinos frenéticos e um coro que explode no ápice da luta contra o robô da Shinra.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/9jK4Lp63L1M?si=i4lb3jOAX7zTHfpZ" title="The Airbuster - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
+
+                    <li class="textocerto">"Hollow": A música-tema oficial do Remake, composta por Nobuo Uematsu com vocais de Yosh (da banda Survive Said The Prophet). É um rock melancólico que reflete perfeitamente os conflitos internos e o isolamento de Cloud Strife.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/ANVkvpvibZc?si=2_M2rToxkF9KAMEV" title="Hollow - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">• "Main Theme of FFVII - Sector 7 Undercity": A versão de exploração da Favela do Setor 7. Consegue traduzir uma sensação única de paz, nostalgia e melancolia enquanto o jogador anda pela comunidade.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/p5N0jo_pJN8?si=E7fLUvphKFEmxJ0W" title="Main Theme of FFVII - Sector 7 Undercity - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+
+                <h2 class="titulo">Musicas do Rebirth</h2>
+                    <li class="textocerto">"No Promises to Keep": A música-tema oficial do Rebirth. Cantada por Loren Allred (voz de The Greatest Showman), essa balada arrebatadora é performada por Aerith no teatro de Gold Saucer e resume a essência emocional do jogo.</li>
+                    <div class="container-video">
+                        <iframe src="https://www.youtube.com/watch?v=uZr337zWYVY&list=RDuZr337zWYVY&start_radio=1" title="No Promises to Keep - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">"Aerith's Theme - The White Materia": Considerada uma das músicas mais marcantes de toda a franquia. A versão do Rebirth adiciona camadas dramáticas incríveis que transitam sutilmente entre o tema clássico da personagem e o tema de Jenova durante momentos cruciais do enredo.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/V4UL6BYgUXw?si=OGBzv3msxYjUWgES" title="Aerith's Theme - The White Materia - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">"J-E-N-O-V-A - Emergence": O arranjo feito para a luta contra a criatura alienígena no navio Shinra-8. Começa com batidas eletrônicas pesadas e evolui para uma sinfonia de cordas absurdamente empolgante.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/mMVrahnTfFE?si=bAfzehppCyunSOYL" title="J-E-N-O-V-A - Emergence - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">"Queen's Blood": O tema viciante do minijogo de cartas. Com uma pegada de jazz misteriosa apoiada em um contrabaixo acústico marcante, a música faz o jogador querer ficar horas apenas jogando cartas.</li>
+                    <div class="container-video">
+                        <iframe src="https://www.youtube.com/watch?v=0IRL2KMLfeI&list=PLOQDbIt6btzDm-xA97klKdQCSCFQK7oPA" title="Queen's Blood - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">"Cosmo Canyon - Rebirth": O tema da tribo de Red XIII. A versão atualizada expande os instrumentos folclóricos e de sopro do original, dando uma sensação massiva de liberdade e espiritualidade ao explorar a região dos cânions.</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/8Zw9hCgi-H0?si=7ND1ztpYvwTY63qF" title="Cosmo Canyon - Rebirth - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <li class="textocerto">"Bow Wow Wow" / "Stamp's Theme": Uma das músicas mais divertidas e comentadas pela comunidade, usada na hilária missão com o cachorrinho Stamp em Junon, trazendo um clima de desenho animado japonês hiperviciante</li>
+                    <div class="container-video">
+                        <iframe src="https://youtu.be/vVk6jv-I7XY?si=_kBvZ6oQQRM41XJK" title="Bow Wow Wow - Final Fantasy VII Remake" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+
+
+            </div>
      </ul>
-    
+</div>
 
 </body>
 </html>
